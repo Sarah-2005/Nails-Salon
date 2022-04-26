@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color:  white;
+    top: -1px;
+}
+
+li{
+    list-style: none;
+}
+.a{
+    color: rgb(254, 166, 2);
+    text-decoration: none;
+}
+#chosen{
+    text-decoration: underline black;
+}
+
+.nav-item:nth-child(1){
+    padding: 0 25px;
+}
+.nav-branding{
+    color: rgb(254, 166, 2);
+    font-style: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-logo{
+    padding: 23px 20px;
+}
+.nav-bar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 24px;
+}
+.nav-menu, .nav-branding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    transition: 0.3s;
+}
+.nav-menu{
+    width: 100%;
+    padding: 0 130px;
+}
+.a{
+    transition: 0.5s ease;
+}
+
+
+.a:hover{
+    color: rgb(255, 0, 247);
+    font-style: bold;
+}
+
+.burg{
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar{
+    display: block;
+    width: 46px;
+    height: 6px;
+    margin: 5px auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
+/* now */ 
+.part1{
+    position: absolute;
+    top: 1.9cm;
+    background-color: #e4b8ff8e;
+    width: 100%;
+    min-height:30cm;
+    opacity: 50%;
+}
+.inside-part1{
+    position: absolute;
+    top: 1.8cm;
+    opacity: 100%;
+    width: 100%;
+}
+.intro{
+    text-align: center;
+    padding: 20px 0 0 0 ;
+    color: rgb(158, 43, 43);
+    word-spacing: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.a{
+    text-decoration: none;
+}
+/* the menu titles */
+.menu-titles{
+    width: 100%;
+    display: flex;
+    gap: 3cm;
+    padding-left: 2cm;
+    font-size: 0.5rem;
+    color: rgb(158, 43, 43);
+}
+/* 1st column */
+.menu-desc1{
+    display: list-item;
+    position: absolute;
+    left: 1cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+.dsec1-price , .dsec1-items{
+    padding-bottom: 30px;
+}
+.prices-desc1{
+    display: list-item;
+    position: absolute;
+    left: 5cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+/* 2nd column */
+.menu-desc2{
+    display: list-item;
+    position: absolute;
+    left: 7cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+.dsec2-price , .dsec2-items{
+    padding-bottom: 30px;
+}
+.prices-desc2{
+    display: list-item;
+    position: absolute;
+    left: 11cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+/* 3rd column */
+.menu-desc3{
+    display: list-item;
+    position: absolute;
+    left: 13cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+.dsec3-price , .dsec3-items{
+    padding-bottom: 30px;
+}
+.prices-desc3{
+    display: list-item;
+    position: absolute;
+    left: 18cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+/* 4rth column */
+.menu-desc4{
+    display: list-item;
+    position: absolute;
+    left: 21cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+.dsec4-price , .dsec4-items{
+    padding-bottom: 30px;
+}
+.prices-desc4{
+    display: list-item;
+    position: absolute;
+    left: 27.9cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+/* 5th column */
+.menu-desc5{
+    display: list-item;
+    position: absolute;
+    top: 16cm;
+    left: 22cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+.dsec5-price , .dsec5-items{
+    padding-bottom: 30px;
+}
+.prices-desc5{
+    display: list-item;
+    position: absolute;
+    top: 16cm;
+    left: 29cm;
+    list-style: none;
+    padding-top: 1cm;
+}
+/* All titles w/ descreptions */
+.titles-descs{
+    padding-top: 1cm;
+    
+}
+.menu-title3{
+    width: 100%;
+    display: flex;
+    gap: 3cm;
+    padding-left: 22cm;
+    font-size: 0.5rem; 
+    position: absolute;
+    top: 16cm;
+    color: rgb(158, 43, 43);
+}
+/* decoration */
+.flower{
+    position: absolute;
+    left: 22cm;
+    top: 1cm;
+    width: 426.7px;
+    height: 188.7px;
+    transform: rotate(20deg);
+}
